@@ -1,0 +1,10 @@
+{
+    "css": [
+        "css/colReorder.jqueryui.css",
+        "css/colReorder.jqueryui.min.css"
+    ],
+    "js": [],
+    "src-repo": "http://github.com/DataTables/ColReorder",
+    "last-sync": "d23e9a327dd5f9814faf06acdcad3cae18f57518",
+    "last-tag": "1.2.0"
+}
