@@ -19,7 +19,7 @@ npm install datatables.net-colreorder-jqui
 
 ```
 var $ = require( 'jquery' );
-require( 'datatables.net-colreorder-jqui' )( $ );
+require( 'datatables.net-colreorder-jqui' )( window, $ );
 ```
 
 ### bower
