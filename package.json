@@ -23,5 +23,9 @@
         "jquery": ">=1.7",
         "datatables.net-jqui": ">=1.10.9",
         "datatables.net-colreorder": ">=1.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-ColReorder-jQueryUI.git"
     }
 }
