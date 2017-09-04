@@ -3,7 +3,7 @@
     "version": "1.4.0",
     "description": "ColReorder for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
-        "css/colReorder.jqueryui.css"
+        "css/**/*.css"
     ],
     "style": "css/colReorder.jqueryui.css",
     "keywords": [
