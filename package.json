@@ -3,7 +3,8 @@
     "version": "1.4.1",
     "description": "ColReorder for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/colReorder.jqueryui.css",
     "keywords": [
@@ -28,5 +29,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-ColReorder-jQueryUI.git"
-    }
+    },
+    "main": "js/colReorder.jqueryui.js"
 }
