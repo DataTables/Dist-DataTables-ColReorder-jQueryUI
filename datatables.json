@@ -1,13 +1,15 @@
 {
-    "css": [
-        "css/colReorder.jqueryui.css",
-        "css/colReorder.jqueryui.min.css"
-    ],
     "js": [
         "js/colReorder.jqueryui.js",
         "js/colReorder.jqueryui.min.js"
     ],
+    "css": [
+        "css/colReorder.jqueryui.css",
+        "css/colReorder.jqueryui.min.css"
+    ],
+    "types": [
+        "types/colReorder.jQueryUI.d.ts"
+    ],
     "src-repo": "http://github.com/DataTables/ColReorder",
-    "last-sync": "ad474638ebd9559892900bc23246e6fcbd62ce1f",
     "last-tag": "1.5.3"
 }

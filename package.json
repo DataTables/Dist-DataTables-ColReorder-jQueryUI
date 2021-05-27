@@ -1,34 +1,48 @@
 {
     "name": "datatables.net-colreorder-jqui",
+    "description": "ColReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "main": "js/colReorder.jqueryui.js",
+    "style": "css/colReorder.jqueryui.css",
     "version": "1.5.3",
-    "description": "ColReorder for DataTables with styling for [jQuery UI](http://jqueryui.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "style": "css/colReorder.jqueryui.css",
     "keywords": [
-        "reorder",
-        "DataTables",
+        "ColReorder",
+ "Reorder",
+        "jQuery UI",
+ "jQueryUI",
+        "Datatables",
         "jQuery",
         "table",
-        "jQuery UI"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-colreorder": ">=1.5.3",
+        "datatables.net-jqui": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-jqui": "^1.10.15",
-        "datatables.net-colreorder": "1.5.3"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-ColReorder-jQueryUI.git"
-    },
-    "main": "js/colReorder.jqueryui.js"
+    }
 }
