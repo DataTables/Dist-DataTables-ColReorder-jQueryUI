@@ -4,16 +4,16 @@
     "main": "js/colReorder.jqueryui.js",
     "style": "css/colReorder.jqueryui.css",
     "types": "./types/colReorder.jQueryUI.d.ts",
-    "version": "1.5.3",
+    "version": "1.5.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "ColReorder",
- "Reorder",
+        "Reorder",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
