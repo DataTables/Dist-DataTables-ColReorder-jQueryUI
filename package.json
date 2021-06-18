@@ -11,9 +11,9 @@
     ],
     "keywords": [
         "ColReorder",
-        "Reorder",
+ "Reorder",
         "jQuery UI",
-        "jQueryUI",
+ "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -21,8 +21,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-colreorder": ">=1.5.3",
-        "datatables.net-jqui": ">=1.10.24",
+        "datatables.net-colreorder": ">=1.5.4",
+        "datatables.net-jqui": ">=1.10.26-dev",
         "jquery": ">=1.7"
     },
     "moduleType": [
