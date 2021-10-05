@@ -11,7 +11,7 @@
         <tags>ColReorder  Reorder  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
             <dependency id="datatables.net-colreorder" version="1.5.4"/>
-            <dependency id="datatables.net-jqui" version="1.10.25"/>
+            <dependency id="datatables.net-jqui" version="1.11.3"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
