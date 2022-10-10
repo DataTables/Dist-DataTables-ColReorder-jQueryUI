@@ -2,12 +2,14 @@
     "name": "datatables.net-colreorder-jqui",
     "description": "ColReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "main": "js/colReorder.jqueryui.js",
+    "module": "js/colReorder.jqueryui.mjs",
     "style": "css/colReorder.jqueryui.css",
     "types": "./types/colReorder.jQueryUI.d.ts",
     "version": "1.5.6",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
