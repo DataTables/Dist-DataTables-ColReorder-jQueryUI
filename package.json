@@ -4,7 +4,7 @@
     "main": "js/colReorder.jqueryui.js",
     "module": "js/colReorder.jqueryui.mjs",
     "style": "css/colReorder.jqueryui.css",
-    "types": "./types/colReorder.jQueryUI.d.ts",
+    "types": "./types/types.d.ts",
     "version": "1.5.6",
     "files": [
         "css/**/*.css",

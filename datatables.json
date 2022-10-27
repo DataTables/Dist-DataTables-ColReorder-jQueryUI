@@ -10,7 +10,8 @@
         "css/colReorder.jqueryui.min.css"
     ],
     "types": [
-        "types/colReorder.jQueryUI.d.ts"
+        "types/colReorder.jQueryUI.d.ts",
+        "types/types.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/ColReorder",
     "last-tag": "1.5.6"
