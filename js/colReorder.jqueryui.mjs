@@ -3,8 +3,8 @@
  */
 
 import $ from 'jquery';
-import DataTable from 'datatables.net-ju';
-import 'datatables.net-colreorder';
+import DataTable from 'datatables.net-jqui';
+import ColReorder from 'datatables.net-colreorder';
 
 
 
