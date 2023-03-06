@@ -8,5 +8,4 @@ import ColReorder from 'datatables.net-colreorder';
 
 
 
-
 export default DataTable;
