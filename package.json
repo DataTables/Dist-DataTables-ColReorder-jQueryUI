@@ -4,7 +4,7 @@
     "main": "js/colReorder.jqueryui.js",
     "module": "js/colReorder.jqueryui.mjs",
     "style": "css/colReorder.jqueryui.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/colReorder.jqueryui.d.ts",
     "version": "1.6.2",
     "files": [
         "css/**/*.css",
@@ -14,9 +14,9 @@
     ],
     "keywords": [
         "ColReorder",
-        "Reorder",
+ "Reorder",
         "jQuery UI",
-        "jQueryUI",
+ "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
@@ -24,8 +24,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-colreorder": ">=1.5.6",
-        "datatables.net-jqui": ">=1.12.1",
+        "datatables.net-colreorder": ">=1.6.2",
+        "datatables.net-jqui": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
