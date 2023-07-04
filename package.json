@@ -5,7 +5,7 @@
     "module": "js/colReorder.jqueryui.mjs",
     "style": "css/colReorder.jqueryui.css",
     "types": "./types/colReorder.jqueryui.d.ts",
-    "version": "1.6.2",
+    "version": "1.7.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,9 +14,9 @@
     ],
     "keywords": [
         "ColReorder",
- "Reorder",
+        "Reorder",
         "jQuery UI",
- "jQueryUI",
+        "jQueryUI",
         "Datatables",
         "jQuery",
         "table",
