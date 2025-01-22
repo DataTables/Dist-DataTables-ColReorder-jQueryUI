@@ -1,6 +1,6 @@
 # ColReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)
 
-This package contains a built distribution of the [ColReorder extension](https://datatables.net/extensions/colreorder) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
+This is the distribution package for the [ColReorder extension](https://datatables.net/extensions/colreorder) for [DataTables](https://datatables.net/) with styling for [jQueryUI](http://jqueryui.com/).
 
 ColReorder allows the end user to modify the column order of a table through drop-and-drag of column headers.
 
@@ -9,42 +9,37 @@ ColReorder allows the end user to modify the column order of a table through dro
 
 ### Browser
 
-For inclusion of this library using a standard `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
+To use DataTables with a simple `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
 
 ### npm
 
+For installation via npm, yarn and other similar package managers, install this package with your package manager - e.g.:
+
 ```
+npm install datatables.net-jqui
 npm install datatables.net-colreorder-jqui
 ```
 
-ES3 Syntax
-```
-var $ = require( 'jquery' );
-var dt = require( 'datatables.net-colreorder-jqui' )( window, $ );
-```
+Then, to load and initialise the software in your code use:
 
-ES6 Syntax
 ```
+import DataTable from 'datatables.net-jqui';
 import 'datatables.net-colreorder-jqui'
-```
 
-### bower
-
+new DataTable('#myTable', {
+    // initalisation options
+});
 ```
-bower install --save datatables.net-colreorder-jqui
-```
-
 
 
 ## Documentation
 
-Full documentation and examples for ColReorder can be found [on the website](https://datatables.net/extensions/colreorder).
+Full documentation and examples for ColReorder can be found [on the DataTables website](https://datatables.net/extensions/colreorder).
 
 
 ## Bug / Support
 
 Support for DataTables is available through the [DataTables forums](//datatables.net/forums) and [commercial support options](//datatables.net/support) are available.
-
 
 ### Contributing
 
