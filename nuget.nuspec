@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>ColReorder  Reorder  jQuery UI  jQueryUI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-colreorder" version="1.5.6"/>
-            <dependency id="datatables.net-jqui" version="1.12.1"/>
+            <dependency id="datatables.net-colreorder" version="2.1.1"/>
+            <dependency id="datatables.net-jqui" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/colReorder.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/colReorder.jqueryui.min.js" target="content\Scripts"/>
         <file src="js/colReorder.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/colReorder.jqueryui.min.mjs" target="content\Scripts"/>
+        <file src="js/colReorder.jqueryui.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/colReorder.jqueryui.mjs" target="content\Scripts"/>
+        <file src="js/colReorder.jqueryui.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/colReorder.jqueryui.css" target="content\Content"/>
         <file src="css/colReorder.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/colReorder.jqueryui.min.css" target="content\Content"/>
