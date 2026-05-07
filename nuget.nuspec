@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <version>2.1.2</version>
+        <version>3.0.0-beta.1</version>
         <id>datatables.net-colreorder-jqui</id>
         <description>This is ColReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)</description>
-        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-ColReorder-jQueryUI.git"/>
+        <repository type="git" url="https://github.com/DataTables/ColReorder"/>
         <authors>SpryMedia Ltd</authors>
         <projectUrl>http://datatables.net</projectUrl>
         <license type="expression">MIT</license>
-        <tags>ColReorder  Reorder  jQuery UI  jQueryUI  Datatables jQuery table</tags>
+        <tags>ColReorder  Reorder  UI  jQueryUI  Datatables table</tags>
         <dependencies>
-            <dependency id="datatables.net-colreorder" version="2.1.1"/>
-            <dependency id="datatables.net-jqui" version="2.3.2"/>
+            <dependency id="datatables.net-colreorder" version="3.0.0-beta.1"/>
+            <dependency id="datatables.net-jqui" version="3.0.0-beta.1"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
         </contentFiles>
+        <readme>Readme.md</readme>
     </metadata>
     <files>
+        <file src="Readme.md" target=""/>
         <file src="js/colReorder.jqueryui.js" target="content\Scripts"/>
         <file src="js/colReorder.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/colReorder.jqueryui.min.js" target="content\Scripts"/>
@@ -32,4 +34,3 @@
         <file src="css/colReorder.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
     </files>
 </package>
-
