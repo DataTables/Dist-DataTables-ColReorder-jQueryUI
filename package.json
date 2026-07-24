@@ -5,7 +5,7 @@
     "module": "js/colReorder.jqueryui.mjs",
     "style": "css/colReorder.jqueryui.css",
     "types": "./types/colReorder.jqueryui.d.ts",
-    "version": "3.0.0-beta.1",
+    "version": "3.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-colreorder": "3.0.0-beta.1",
-        "datatables.net-jqui": "^2"
+        "datatables.net-colreorder": "3.0.0",
+        "datatables.net-jqui": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
