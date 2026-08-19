@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-colreorder-jqui",
-    "description": "ColReorder allows the end user to modify the column order of a table through drop-and-drag of column headers. This is ColReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
+    "description": "ColReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-ColReorder-jQueryUI"
@@ -27,7 +27,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-colreorder": ">=1.5.6",
-        "datatables.net/datatables.net-jqui": ">=1.12.1"
+        "datatables.net/datatables.net-colreorder": "3.0.1",
+        "datatables.net/datatables.net-jqui": "^3"
     }
 }
