@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-colreorder-jqui",
     "description": "ColReorder for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/colReorder.jqueryui.js",
-    "module": "js/colReorder.jqueryui.mjs",
-    "style": "css/colReorder.jqueryui.css",
+    "main": "./js/colReorder.jqueryui.js",
+    "module": "./js/colReorder.jqueryui.mjs",
+    "style": "./css/colReorder.jqueryui.css",
     "types": "./types/colReorder.jqueryui.d.ts",
     "version": "3.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "ColReorder",
@@ -36,5 +35,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/ColReorder.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/colReorder.jqueryui.d.ts",
+            "import": "./js/colReorder.jqueryui.mjs",
+            "default": "./js/colReorder.jqueryui.mjs",
+            "require": "./js/colReorder.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/colReorder.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
