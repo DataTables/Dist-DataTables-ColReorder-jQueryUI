@@ -27,7 +27,7 @@
         "table"
     ],
     "require": {
-        "datatables.net/datatables.net-colreorder": "3.0.1",
-        "datatables.net/datatables.net-jqui": "^3"
+        "datatables.net/datatables.net-colreorder": "3.1.0",
+        "datatables.net/datatables.net-jqui": "^3.1"
     }
 }
