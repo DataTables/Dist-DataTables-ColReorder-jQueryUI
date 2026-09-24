@@ -39,9 +39,10 @@
     "exports": {
         ".": {
             "types": "./types/colReorder.jqueryui.d.ts",
+            "style": "./css/colReorder.jqueryui.css",
             "import": "./js/colReorder.jqueryui.mjs",
-            "default": "./js/colReorder.jqueryui.mjs",
-            "require": "./js/colReorder.jqueryui.js"
+            "require": "./js/colReorder.jqueryui.js",
+            "default": "./js/colReorder.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
